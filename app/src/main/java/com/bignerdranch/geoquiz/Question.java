@@ -1,6 +1,6 @@
 package com.bignerdranch.geoquiz;
 
-public class Questions {
+public class Question {
 
     private int mTextResId;
     private boolean mAnswerTrue;
@@ -21,7 +21,7 @@ public class Questions {
         mTextResId = textResId;
     }
 
-    public Questions(int textResId, boolean answerTru) {
+    public Question(int textResId, boolean answerTru) {
         mTextResId = textResId;
         mAnswerTrue = answerTru;
     }
