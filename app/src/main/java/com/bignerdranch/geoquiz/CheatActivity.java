@@ -39,9 +39,9 @@ public class CheatActivity extends AppCompatActivity {
 
         mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false);
 
-        mOsVersion = (TextView) findViewById(R.id.os_version);
-        Integer os = Build.VERSION.SDK_INT;
-        mOsVersion.setText("API Level " + os.toString());
+        mOsVersion = (TextView) findViewById(R.id.os_version); //Вывод в поле версии API устройства
+        Integer os = Build.VERSION.SDK_INT;                    //Вывод в поле версии API устройства
+        mOsVersion.setText("API Level " + os.toString());      //Вывод в поле версии API устройства
 
         mAnswerTextView = (TextView) findViewById(R.id.answer_text_view);
         mShowAnswerButton = (Button) findViewById(R.id.show_answer_button);
